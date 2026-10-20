@@ -1,0 +1,42 @@
+* {
+    color: white;
+    
+}
+
+.body {
+    padding: 10px;
+}
+
+.infobox {
+    width: 25.5%;
+    height: 70%;
+    font-size: 16px; /* changes font size */
+    font-weight: 500; /* changes font weight */
+    color: white; /* changes text color */
+
+    background: rgba(255, 255, 255, 0.007); /* creates tons of transparency */
+    backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+    -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+    border-radius: 16px; /* radius */
+    border: 2px solid rgb(126 100 241);
+
+    transition: all 0.25s ease;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.border {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(53 73 173);
+}
+
+.infostore {
+    display: flex;
+    gap: 10px;
+}

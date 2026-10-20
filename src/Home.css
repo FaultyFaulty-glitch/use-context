@@ -1,0 +1,500 @@
+* {
+    font-family: Segoe UI;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcontent {
+    width: 25.5%;
+    height: 70%;
+    font-size: 16px; /* changes font size */
+    font-weight: 500; /* changes font weight */
+    color: white; /* changes text color */
+
+    background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+    backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+    -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+    border-radius: 16px; /* radius */
+    border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+    transition: all 0.25s ease;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.topbar {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar h1 {
+    font-size: 42px;
+}
+
+.styled {
+    padding: 13px;
+    width: 410px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px #8E5FE0 solid;
+    background: none;
+    font-size: 16px;
+    color: white;
+}
+
+.loginbtn {
+    padding: 13px;
+    width: 410px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+.styled::placeholder {
+    color: white;
+}
+
+.logincontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottomlogcon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.bottomlogcon a {
+    cursor: pointer;
+}
+
+.registerlink {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 1645px) {
+    .boxcontent {
+        width: 35.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .boxcontent {
+        width: 45.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 916px) {
+    .boxcontent {
+        width: 55.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 754px) {
+    .boxcontent {
+        width: 75.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 557px) {
+    .boxcontent {
+        width: 92.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 470px) {
+    .boxcontent {
+        width: 95.5%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+@media (max-width: 456px) {
+    .boxcontent {
+        width: 98.8%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 456px) {
+    .boxcontent {
+        width: 100%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 440px) {
+    .boxcontent {
+        width: 100%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .styled {
+        padding: 13px;
+        width: 370px;
+        border-radius: 25px;
+        outline: none;
+        border: 2px #8E5FE0 solid;
+        background: none;
+        font-size: 16px;
+        color: white;
+    }
+
+    .bottomlogcon {
+        width: 370px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .loginbtn {
+        padding: 13px;
+        width: 370px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background: white;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 400px) {
+    .boxcontent {
+        width: 100%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .styled {
+        padding: 13px;
+        width: 330px;
+        border-radius: 25px;
+        outline: none;
+        border: 2px #8E5FE0 solid;
+        background: none;
+        font-size: 16px;
+        color: white;
+    }
+
+    .bottomlogcon {
+        width: 330px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .loginbtn {
+        padding: 13px;
+        width: 330px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background: white;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 350px) {
+    .boxcontent {
+        width: 100%;
+        height: 70%;
+        font-size: 16px; /* changes font size */
+        font-weight: 500; /* changes font weight */
+        color: white; /* changes text color */
+
+        background: rgba(255, 255, 255, 0.15); /* creates tons of transparency */
+        backdrop-filter: blur(18px) saturate(180%); /* creates the ACTUAL effect */
+        -webkit-backdrop-filter: blur(18px) saturate(180%); /* just a recopy */
+
+        border-radius: 16px; /* radius */
+        border: 1px solid rgba(255, 255, 255, 0.35); /* creates border */
+
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.4); /* creates shadows */
+
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .styled {
+        padding: 13px;
+        width: 300px;
+        border-radius: 25px;
+        outline: none;
+        border: 2px #8E5FE0 solid;
+        background: none;
+        font-size: 16px;
+        color: white;
+    }
+
+    .bottomlogcon {
+        width: 300px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .loginbtn {
+        padding: 13px;
+        width: 300px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background: white;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+    }
+}
